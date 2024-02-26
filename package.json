@@ -1,0 +1,24 @@
+{
+  "name": "windry",
+  "version": "1.0.0",
+  "description": "hallo little lady",
+  "main": "./dist/windry.js",
+  "module": "./dist/windry.js",
+  "types": "./dist/windry.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": ["test"],
+  "author": "syahrielms99",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "validator": "^13.11.0"
+  }
+}
